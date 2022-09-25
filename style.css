@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "VT323", sans-serif;
+  background-color: #222831;
+  color: #dddddd;
+  font-size: 1.7rem;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Press Start 2P", sans-serif;
+  text-align: center;
+  background-color: #111720;
+  color: #dddddd;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------ Game Container ------ */
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.instructions h2 {
+  margin-top: 1rem 0 0 0;
+  padding: 0;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.game-icon {
+  font-size: 4rem;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.user-choice {
+  height: 10rem;
+  width: 10rem;
+  background-color: #393e46;
+  line-height: 10rem;
+  border-radius: 10px;
+}
+
+.user-choice:hover {
+  background-color: #4a4f57;
+}

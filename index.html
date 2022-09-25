@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <title>Rock Paper Scissors Game</title>
 </head>
 <body>
   <header>
-    <h1>Rock Paper Scissors</h1>
+    <h1>ROCK PAPER SCISSORS</h1>
   </header>
 
   <div class="container">
@@ -19,20 +23,20 @@
 
     <div class="scoreboard">
       <div class="score">
-        <div class="choice-icon"></div>
-        <p>Player: <span id="user-score">❔</span></p>
+        <div class="game-icon">❔</div>
+        <p>Player: <span id="user-score"></span></p>
       </div>
 
       <div class="score">
-        <div class="score-icon"></div>
-        <p>Player: <span id="computer-score">❔</span></p>
+        <div class="game-icon">❔</div>
+        <p>Player: <span id="computer-score"></span></p>
       </div>
     </div>
 
     <div class="choices">
-      <div class="choice-icon" id="rock">✊</div>
-      <div class="choice-icon" id="paper">🖐</div>
-      <div class="choice-icon" id="scissors">✌️</div>
+      <div class="game-icon user-choice" id="rock">✊</div>
+      <div class="game-icon user-choice" id="paper">🖐</div>
+      <div class="game-icon user-choice" id="scissors">✌️</div>
     </div>
   </div>
 
