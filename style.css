@@ -9,6 +9,7 @@ body {
   font-size: 1.7rem;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 header {
